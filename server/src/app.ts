@@ -15,7 +15,7 @@ const origin: (string | boolean | RegExp) = process.env.CLIENT_ORIGIN as unknown
 const prisma = new PrismaClient();
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Express + Typescript + Nodemon + Prisma')
+    res.send('Express + Typescript + Nodemon + Prisma + tRPC')
 });
 
 // created for each request
